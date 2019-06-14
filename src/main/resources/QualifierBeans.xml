@@ -9,9 +9,9 @@
     <context:annotation-config/>
 
     <!-- Zdefiniowanie ziarna reaktorjadrowy -->
-    <bean id="reaktorjądrowy" class = "a_adnotacje_wstrzykiwania.qualifier.komponenty_elektrowni.ReaktorJądrowy"/>
+    <bean id="reaktorjądrowy" class = "ja.workshops.spring.części.konfiguracja.adnotacjami.a_adnotacje_wstrzykiwania.qualifier.komponenty_elektrowni.ReaktorJądrowy"/>
     <!-- Zdefiniowanie ziarna reaktorchemiczny -->
-    <bean id="reaktorchemiczny" class="a_adnotacje_wstrzykiwania.qualifier.komponenty_elektrowni.ReaktorChemiczny"/>
+    <bean id="reaktorchemiczny" class="ja.workshops.spring.części.konfiguracja.adnotacjami.a_adnotacje_wstrzykiwania.qualifier.komponenty_elektrowni.ReaktorChemiczny"/>
     <!-- Zdefiniowanie ziarna elektrownia -->
-    <bean id="elektrownia" class="a_adnotacje_wstrzykiwania.qualifier.Elektrownia"/>
+    <bean id="elektrownia" class="ja.workshops.spring.części.konfiguracja.adnotacjami.a_adnotacje_wstrzykiwania.qualifier.Elektrownia"/>
 </beans>
