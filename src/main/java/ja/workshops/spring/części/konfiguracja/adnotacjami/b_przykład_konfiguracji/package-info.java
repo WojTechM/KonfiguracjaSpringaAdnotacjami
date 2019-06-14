@@ -38,9 +38,10 @@
  *     </li>
  * </ol>
  * <br/>
- * Aby uruchomić Jettiego użyj komendy:
- * <p>{@code mvn jetty:run}</p> lub jeśli chcesz uruchomić go na innym porcie (domyślny port to 8080):
- * <p>{@code mvn -Djetty.port=8888 jetty:run}</p>
+ * Aby uruchomić Tomcata użyj komendy:
+ * <p>{@code mvn tomcat7:run}</p>
+ * jeśli chcesz uruchomić go na innym porcie niż domyślny (8080), użyj polecenia
+ * <p>{@code mvn tomcat7:run -Dmaven.tomcat.port=8888}</p>
  * <br/>
  * @author Wojciech Makiela
  */
